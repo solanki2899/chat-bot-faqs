@@ -1,6 +1,5 @@
 body {
     font-family: Garamond;
-    border:purple;
 }
 
 h1 {
@@ -23,7 +22,6 @@ h3 {
     margin-right: auto;
     width: 40%;
     margin-top: 60px;
-    border: purple;
 }
 
 #userInput {
@@ -44,19 +42,20 @@ h3 {
 #buttonInput {
     padding: 3px;
     font-family: monospace;
-    font-size: 17px;
+    font-size: 20;
 }
 
 .userText {
     color: white;
     font-family: monospace;
-    font-size: 17px;
+    font-size: 20px;
     text-align: right;
     line-height: 30px;
+    background:linear-gradient(black,#61d8e0);
 }
 
 .userText span {
-    background-color: #009688;
+    background:linear-gradient(black,#61d8e0);
     padding: 10px;
     border-radius: 10px;
 }
@@ -64,13 +63,14 @@ h3 {
 .botText {
     color: white;
     font-family: monospace;
-    font-size: 17px;
+    font-size: 20px;
     text-align: left;
     line-height: 30px;
+    background:linear-gradient(black,pink);
 }
 
 .botText span {
-    background-color: #37373b;
+    background:linear-gradient(black,pink);
     padding: 10px;
     border-radius: 10px;
 }

@@ -7,7 +7,6 @@ app = Flask(__name__)
 
 english_bot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter")
 trainer = ChatterBotCorpusTrainer(english_bot)
-trainer = ListTrainer(english_bot)
 trainer.train("chatterbot.corpus.english")
 trainer.train("data/data.yml")
 @app.route("/")
